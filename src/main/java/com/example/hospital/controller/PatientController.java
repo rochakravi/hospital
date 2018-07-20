@@ -38,7 +38,13 @@ public class PatientController {
 		
 		
 	}
-	
+	/*payload
+	 * {
+	    "patientName": "vikash",
+	    "doctor": {
+	       "doctorID": 3
+	    }
+	}*/
 	@RequestMapping(value="/patient",method=RequestMethod.POST)
 	public Patient savePatients(@RequestBody Patient patientDto) {
 		

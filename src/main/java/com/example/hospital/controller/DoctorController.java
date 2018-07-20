@@ -20,7 +20,12 @@ public class DoctorController {
 	@Autowired 
 	private DoctorService doctorService ;
 	
-	
+	/*payload
+	 * {      
+        "doctorName": "Reema Dixit",
+        "doctorSpecilist": "Econology",
+        "doctorDegree": "MS"
+    }*/
 	@RequestMapping(value="/addDoctor", method=RequestMethod.POST)
 	public Doctor addDoctor(@RequestBody Doctor doctor) {		
 		return doctorService.addDoctor(doctor);		
