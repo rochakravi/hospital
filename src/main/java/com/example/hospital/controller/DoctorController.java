@@ -14,6 +14,8 @@ import com.example.hospital.model.Doctor;
 import com.example.hospital.model.Patient;
 import com.example.hospital.service.DoctorService;
 @CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://native-villagers.firebaseapp.com")
+
 @RestController
 public class DoctorController {
 	
