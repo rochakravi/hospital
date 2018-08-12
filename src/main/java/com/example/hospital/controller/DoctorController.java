@@ -49,7 +49,7 @@ public class DoctorController {
 		
 	}
 	@RequestMapping(value="/test", method=RequestMethod.GET)
-	public Doctor test() {		
+	public String test() {		
 		return "Service are up to date, my friend !!" ;		
 	}
 
