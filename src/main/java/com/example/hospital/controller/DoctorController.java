@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.hospital.model.Doctor;
 import com.example.hospital.model.Patient;
 import com.example.hospital.service.DoctorService;
-//@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://native-villagers.firebaseapp.com")
+@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "https://native-villagers.firebaseapp.com")
 
 @RestController
 public class DoctorController {
