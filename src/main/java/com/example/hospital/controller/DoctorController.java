@@ -48,6 +48,10 @@ public class DoctorController {
 		doctorService.deleteDoctor(id);
 		
 	}
+	@RequestMapping(value="/test", method=RequestMethod.GET)
+	public Doctor test() {		
+		return "Service are up to date, my friend !!" ;		
+	}
 
 	
 }
